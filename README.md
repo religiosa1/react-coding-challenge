@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This is a coding challenge task. Go to [./src/App.tsx] to see the details.
+This is a coding challenge task. Put your implementation in the [src/App.tsx](./src/App.tsx) file.
 
 Your task is to get user's input, validate it, and submit to the "/entry"
 endpoint, as the following JSON payload:
@@ -17,10 +17,10 @@ content-type: application/json
 
 Validation rules are as follows, input must:
 
-- must greater or equal than 6 chars
-- must less than 13 chars
-- must start with a a-z char, case-insensitive
-- must contain at least one digit
+- be 6 or more chars in length
+- be less than 13 chars in length
+- start with a a-z char, case-insensitive
+- contain at least one digit
 
 Example of a valid input:
 
@@ -35,6 +35,6 @@ encountered must be displayed to a customer.
 Validation may occur on submit.
 
 Bonus points for adding loading indicators, as API is slow, and displaying some error message if submit failed,
-as the API is flay and sometimes errors out.
+as the API is flaky and sometimes errors out.
 
 CSS and styling is beyond the scope of this task, you can keep the results unstyled.
